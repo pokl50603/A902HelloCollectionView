@@ -16,6 +16,8 @@
 		3C3236E628FA498F002EAB9C /* A902HelloCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3236E528FA498F002EAB9C /* A902HelloCollectionViewTests.swift */; };
 		3C3236F028FA498F002EAB9C /* A902HelloCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3236EF28FA498F002EAB9C /* A902HelloCollectionViewUITests.swift */; };
 		3C3236F228FA498F002EAB9C /* A902HelloCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3236F128FA498F002EAB9C /* A902HelloCollectionViewUITestsLaunchTests.swift */; };
+		3C3236FF28FA4D95002EAB9C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3236FE28FA4D95002EAB9C /* MyCollectionViewCell.swift */; };
+		3CD93A0728FA67B30012AB46 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD93A0628FA67B30012AB46 /* ShowImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C3236EB28FA498F002EAB9C /* A902HelloCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A902HelloCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3236EF28FA498F002EAB9C /* A902HelloCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A902HelloCollectionViewUITests.swift; sourceTree = "<group>"; };
 		3C3236F128FA498F002EAB9C /* A902HelloCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A902HelloCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C3236FE28FA4D95002EAB9C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CD93A0628FA67B30012AB46 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3C3236D728FA498F002EAB9C /* Assets.xcassets */,
 				3C3236D928FA498F002EAB9C /* LaunchScreen.storyboard */,
 				3C3236DC28FA498F002EAB9C /* Info.plist */,
+				3C3236FE28FA4D95002EAB9C /* MyCollectionViewCell.swift */,
+				3CD93A0628FA67B30012AB46 /* ShowImageViewController.swift */,
 			);
 			path = A902HelloCollectionView;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				3C3236D328FA498E002EAB9C /* ViewController.swift in Sources */,
 				3C3236CF28FA498E002EAB9C /* AppDelegate.swift in Sources */,
+				3C3236FF28FA4D95002EAB9C /* MyCollectionViewCell.swift in Sources */,
 				3C3236D128FA498E002EAB9C /* SceneDelegate.swift in Sources */,
+				3CD93A0728FA67B30012AB46 /* ShowImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
